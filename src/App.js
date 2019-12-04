@@ -8,9 +8,6 @@ import Home from './Pages/Home';
 import BatPage from "./Pages/batPage";
 
 function App() {
-    // componentWillMount() {
-    //     require('dotenv').config()
-    // }
     return (
         <div className="app">
             <Router>
