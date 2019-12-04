@@ -1,22 +1,127 @@
-.App {
-  text-align: center;
+
+.app {
+
 }
 
-.App-logo {
-  height: 40vmin;
+/* Icon Styles */
+.bat-icon {
+    height: 8rem;
+    width: 8.5rem;
+    margin: 0;
+    padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.three-bats {
+    height: 10rem;
+    width: 15rem;
+    margin: 0;
+    padding: 0;
 }
 
-.App-link {
-  color: #09d3ac;
+/* About page styles */
+.about-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+/* Home page formatting */
+
+.house-container {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0.25rem;
+}
+
+.house-card {
+    margin: 0.5rem;
+}
+
+.pdf-link {
+    color: black;
+}
+
+/* Bat profile Styles */
+.bat-container {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+.bat-card {
+    margin: 0.5rem;
+    padding: 0;
+    width: 18rem;
+}
+
+.card-title {
+    margin: 0.5rem;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-subtitle {
+    margin: 0.25rem;
+}
+
+.bat-profile-pic, .bat-map {
+    margin: 0.25rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+.card-text, .card-text:last-child {
+    margin: 0.5rem;
+}
+
+/* Contact Page Formatting */
+.contact {
+    max-width: 420px;
+    margin: 0.7rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border: #ccc 1px dotted;
+    background-color: #ECEFF1;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
 }
