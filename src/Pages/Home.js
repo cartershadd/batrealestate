@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
 class Home extends Component {
     constructor(props) {
@@ -44,6 +45,16 @@ class Home extends Component {
                         </Card.Body>
                     </Card>
                 )}
+                <Form className="subscribe-form">
+                    <p>
+                        Want updates when the bat houses become available? <br></br>
+                        Subscribe below and we'll send you updates via email.
+                    </p>
+                    <Form.Control type="email" placeholder="Email" />
+                    <Button variant="info" type="submit">
+                        Subscribe
+                    </Button>
+                </Form>
             </div>
         );
     }
